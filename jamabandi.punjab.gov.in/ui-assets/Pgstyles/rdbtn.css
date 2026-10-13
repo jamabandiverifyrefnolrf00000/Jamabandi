@@ -1,0 +1,21 @@
+﻿.radio-list label {
+    margin-right: 20px; /* space between items */
+}
+
+.my-radio-list input[type="radio"] {
+    margin-right: 5px; /* space between radio and label */
+}
+
+.my-radio-list label {
+    margin-right: 20px; /* space between items */
+    /*display: inline-block;*/
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+@media (max-width: 767px) {
+    .my-radio-list {
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}

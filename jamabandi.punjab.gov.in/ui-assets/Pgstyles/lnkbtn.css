@@ -1,0 +1,14 @@
+﻿.fa-download-btn {
+    font-family: Arial, FontAwesome;
+    font-size: 16px;
+}
+
+.ptbg {
+    background-color: aliceblue;
+}
+
+.btn {
+    max-width: 100%;
+    white-space: normal;
+    word-break: break-word;
+}

@@ -1,0 +1,21 @@
+﻿div.pdf {
+    position: absolute;
+    top: -42px;
+    left: 0;
+    width: 100%;
+}
+
+</style >
+<style >
+.modal-content {
+    overflow: hidden;
+}
+
+.radiostyle {
+    height: auto;
+}
+
+    .radiostyle label {
+        margin-left: 3px !important;
+        margin-right: 10px !important;
+    }

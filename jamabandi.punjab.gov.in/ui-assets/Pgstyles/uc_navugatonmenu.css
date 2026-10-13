@@ -1,0 +1,10 @@
+﻿.beta-label {
+    font-size: 12px;
+    color: white;
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 3px;
+    margin-left: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}

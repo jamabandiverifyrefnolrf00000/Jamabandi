@@ -1,0 +1,13 @@
+﻿/* Add this to your page or in a CSS file */
+.table td, .table th {
+    border: 1px solid #dee2e6; /* Adjust color if needed */
+}
+
+.table {
+    border-collapse: collapse; /* Ensures borders don't double */
+}
+
+table.dataTable thead tr th {
+    vertical-align: top !important;
+    line-height: normal !important;
+}

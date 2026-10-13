@@ -1,0 +1,24 @@
+﻿.dtArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    background: rgba(0,0,0,.35);
+    cursor: pointer;
+    z-index: 9999;
+    display: none;
+}
+
+.dtLeft {
+    left: 10px;
+}
+
+.dtRight {
+    right: 10px;
+}

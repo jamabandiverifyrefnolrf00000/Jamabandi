@@ -1,0 +1,23 @@
+﻿
+.report-viewer-container table {
+    margin: 0 auto;
+}
+
+
+.auto-style12 {
+    background-color: whitesmoke;
+    vertical-align: top;
+    text-align: center;
+}
+
+.auto-style2 {
+    width: 17%;
+    vertical-align: top
+}
+
+.auto-style3 {
+    width: 75%;
+    vertical-align: top
+}
+
+

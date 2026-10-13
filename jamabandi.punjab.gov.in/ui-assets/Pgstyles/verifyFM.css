@@ -1,0 +1,41 @@
+﻿
+div.pdf {
+    position: absolute;
+    top: -42px;
+    left: 0;
+    width: 100%;
+}
+
+
+.modal-content {
+    overflow: hidden;
+}
+
+.radiostyle {
+    height: auto;
+}
+
+    .radiostyle label {
+        margin-left: 3px !important;
+        margin-right: 10px !important;
+    }
+
+
+.auto-style12 {
+    background-color: whitesmoke;
+    vertical-align: top;
+    text-align: center;
+}
+
+.auto-style2 {
+    width: 25%;
+    vertical-align: top
+}
+
+.auto-style3 {
+    width: 75%;
+    vertical-align: top
+}
+
+
+
