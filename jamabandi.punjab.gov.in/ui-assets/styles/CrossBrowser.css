@@ -1,0 +1,53 @@
+﻿/* ===== Cross-Browser Safety ===== */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    overflow-x: hidden; /* safe */
+}
+
+body {
+    overflow-y: auto; /* IMPORTANT for Firefox scroll */
+    line-height: 1.4;
+    -webkit-text-size-adjust: 100%;
+}
+/* ===== Wrapper must GROW (not fixed height) ===== */
+#wrapper {
+    min-height: calc(100vh - 120px); /* header + footer approx */
+    height: auto;
+    overflow: visible;
+}
+@media (max-width: 768px) {
+    #wrapper {
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+}
+/* ===== Datepicker always on top ===== */
+.ui-datepicker {
+    z-index: 99999 !important;
+    position: absolute !important;
+    background: #ffffff;
+    border: 1px solid #0b4fa3;
+    box-shadow: 0 6px 18px rgba(0,0,0,.2);
+}
+/* ===== Select wrap text ===== */
+select.form-control {
+    white-space: normal !important;
+    height: auto;
+}
+
+    select.form-control option {
+        white-space: normal;
+    }
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 1.2rem !important;
+        line-height: 1.3;
+    }
+}
+/* Prevent scroll lock */
+html, body {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,181 @@
+
+
+.keyboardtbl {
+	width: 70%;
+	font-size: 15.5px;
+	margin: 0px auto;
+	-moz-user-select: -moz-none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: center
+}
+
+.dbl {
+    BORDER-RIGHT: #fff 2px outset;
+    BORDER-TOP: #fff 2px outset;
+    font-size: 100%;
+    BORDER-LEFT: #fff 2px outset;
+    BORDER-BOTTOM: #fff 2px outset;
+    BACKGROUND-COLOR: #f7f7f7;
+    TEXT-ALIGN: center;
+    TEXT-DECORATION: none;
+    CURSOR: default;
+    color: #0090d3;
+}
+
+.act {
+    BORDER-RIGHT: #fff 2px outset;
+    BORDER-TOP: #fff 2px outset;
+    ont-size: 100%;
+    BORDER-LEFT: #fff 2px outset;
+    BORDER-BOTTOM: #fff 2px outset;
+    font-family: Verdana,Arial,sans-serif;
+    BACKGROUND-COLOR: #f7f7f7;
+    TEXT-ALIGN: center;
+    height: 32px;
+    padding-top: 7px;
+    CURSOR: default;
+    color: #0090d3;
+}
+
+.btext {
+    COLOR: blue;
+    TEXT-DECORATION: none;
+}
+
+#outText2 {
+    display: inline;
+    line-height: 1.5em;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    overflow: auto;
+    resize: vertical;
+    height: 160px;
+    width: 97%;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 1.5em;
+    resize: none;
+}
+
+#outText {
+    display: none;
+    overflow: auto;
+    resize: vertical;
+    height: 160px;
+    width: 97%;
+    font-size: 14px;
+    font-family: Arial,Helvetica,sans-serif;
+    resize: none;
+    line-height: 1.5em;
+    direction: ltr;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.hidden {
+    display: none;
+}
+
+.toLeft {
+    float: left;
+}
+
+.toRight {
+    float: right;
+}
+
+.mright {
+    margin-right: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.cursor:hover {
+    BACKGROUND-COLOR: #f0f0f0;
+}
+
+.cursor:active {
+    BACKGROUND-COLOR: lightgray;
+}
+
+#key14:hover,#key15:hover,#key59:hover,#key28:hover,#key53:hover,#key42:hover,#key57:hover,#key58:hover,#key54:hover,#key55:hover {
+    BACKGROUND-COLOR: #f7f7f7;
+}
+
+@media screen and (max-width: 810px) {
+	#msglist {   
+		margin-left: 0px;
+		width: 100%;
+	}
+}
+
+.zoom-button {
+    float: right;
+    margin-right: 13px;
+    position: relative;
+    width: 130px;
+}
+
+.zoom-button_css {
+    background: none repeat scroll 0 0 #d3d3d3;
+    height: 27px;
+    opacity: .6;
+    padding: 0;
+}
+
+.zoom-button ul li {
+    color: #333;
+    float: left;
+    list-style: none outside none;
+    margin: 3px;
+}
+
+.increase {
+    font-size: 26px;
+    line-height: .7;
+}
+
+.zoom-button_css .fullmodekeyboard {
+    background: url("../../../../images/full_mode.html") no-repeat scroll 0 -24px rgba(0,0,0,0);
+    display: block;
+    height: 21px;
+    width: 23px;
+}
+
+.widget h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.zoom-button_css li:hover {
+    cursor: pointer;
+}
+
+.decrease {
+    font-size: 26px;
+    line-height: .7;
+}
+
+.arrow-up {
+    margin-bottom: -12px;
+}
+
+#content-sidebar {
+    margin-top: -44px !important;
+}
+
+.addPlayBtn:after {
+    top: 35px !important;
+}

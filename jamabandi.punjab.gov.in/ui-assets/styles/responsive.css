@@ -1,0 +1,210 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* ------------------
+    MIN MEDIA START 
+    --------------------- */
+@media only screen and (min-width: 768px) {
+    .vertical-timeline-content h2 {
+        font-size: 18px;
+    }
+
+    .vertical-timeline-content p {
+        font-size: 13px;
+    }
+}
+
+/* ------------------
+    MAX MEDIA START 
+    --------------------- */
+
+@media (max-width: 1200px) {
+    .landing-page .heading-image {
+        display: none;
+    }
+
+    .landing-page .heading {
+        text-align: center;
+    }
+
+        .landing-page .heading p.small {
+            margin: 10px auto;
+        }
+
+    .landing-page .brand-desc {
+        display: none;
+    }
+
+    .landing-page .navbar .navbar-brand {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    .chat-users,
+    .chat-statistic {
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 15px 15px 15px 15px;
+        min-width: 320px;
+    }
+    .fixed-footer .footer {
+        left: 0;
+    }
+
+    .fixed-footer.show-sidebar .footer {
+        left: 181px;
+    }
+    .navbar-form-custom,
+    .navbar-right,
+    #logo {
+        display: none;
+    }
+
+    .navbar-static-top {
+        margin: 0;
+    }
+
+    .small-logo {
+        display: block;
+        float: left;
+    }
+
+    .header-line div {
+        display: none;
+    }
+
+    .color-demo .header-line {
+        height: 48px;
+    }
+
+    #hbreadcrumb {
+        float: none !important;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .normalheader {
+        padding: 15px 15px 0px 15px;
+    }
+    .projects .project-info {
+        text-align: left;
+    }
+    .blog-article-box .panel-body {
+        padding: 10px 20px;
+    }
+    .blog-article-box .panel-body p {
+        font-family: "Times New Roman", Georgia, Serif;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .blog-article-box .panel-heading {
+        padding: 20px 20px;
+    }
+    .forum-box .forum-info {
+        text-align: left;
+    }
+    .mailbox-pagination {
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .dvSelectRegion table tr td {
+        width: 100px;
+    }
+    .language-translator {
+        margin-right: 20px;
+    }
+
+    .linavcontrols .language-translator .nice-select {
+        font-size: 11pt;
+        height: 30px;
+        line-height: 15px;
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 24px;
+    }
+
+    .language-translator .nice-select span {
+        line-height: 27px;
+    }
+
+    .form-horizontal {
+        margin-top: 30px;
+    }
+
+    .nice-select.smedium {
+        font-size: 11pt;
+        height: 40px;
+        line-height: 25px;
+        width: 100%;
+    }
+
+    .dvSelectRegion span.label {
+        display: inline-block;
+        width: 100%;
+        text-align: left;
+        margin-top: 10px;
+    }
+    body.page-small #wrapper{
+        overflow:auto;
+        width:100%;
+    }
+    legend.head-legend span{
+        font-size:14px;
+    }
+    .device-custom-label {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+   .device-custom-label1 {
+        text-align: left;
+        margin-bottom: 12px;
+    }
+    .integrated-property .submit-custom-btn {
+        margin-top: 10px;
+    }
+    table.court-case-table,
+    table.device-custom-table {
+        width: 800px;
+    }
+    .dvSelectRegion span.label.text-danger {
+        color: #ff0000;
+        font-weight: normal;
+    }
+   
+}
+
+@media (max-width: 720px) {
+    .register-container {
+        margin: auto 10px;
+    }
+
+    .lock-container {
+        padding-top: 15%;
+    }
+}
+
+@media (max-width: 620px) {
+    .error-container {
+        margin: auto 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .login-container,
+    .lock-container {
+        margin: auto 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    #wrapper {
+        overflow: hidden;
+    }
+}

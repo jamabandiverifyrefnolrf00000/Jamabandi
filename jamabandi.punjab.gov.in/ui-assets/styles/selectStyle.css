@@ -1,0 +1,110 @@
+﻿/* ===== Force Select2 Blue Border ===== */
+
+.select2-container--default .select2-selection--single {
+    height: 40px !important;
+    border: 2px solid #0d6efd !important; /* DEFAULT BLUE */
+    border-radius: 6px !important;
+    background-color: #fff !important;
+    box-sizing: border-box;
+}
+
+    /* Text centering */
+    .select2-container--default
+    .select2-selection--single
+    .select2-selection__rendered {
+        height: 40px !important;
+        line-height: 40px !important;
+        padding-left: 12px !important;
+        padding-right: 36px !important;
+        color: #212529 !important;
+    }
+
+    /* Arrow */
+    .select2-container--default
+    .select2-selection--single
+    .select2-selection__arrow {
+        height: 40px !important;
+        right: 10px !important;
+        top: 0 !important;
+    }
+
+        .select2-container--default
+        .select2-selection--single
+        .select2-selection__arrow b {
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+
+    /* HOVER → DARK BLUE */
+    .select2-container--default .select2-selection--single:hover {
+        border-color: #084298 !important;
+    }
+
+/* FOCUS / OPEN → DARK BLUE */
+.select2-container--default.select2-container--focus
+.select2-selection--single,
+.select2-container--default.select2-container--open
+.select2-selection--single {
+    border-color: #084298 !important;
+    box-shadow: none !important;
+}
+
+/* MOBILE TAP */
+.select2-container--default .select2-selection--single:active {
+    border-color: #084298 !important;
+}
+
+/* Dropdown border */
+.select2-dropdown {
+    border: 2px solid #084298 !important;
+}
+
+/* Hover item */
+.select2-results__option--highlighted {
+    background-color: #e7f1ff !important;
+    color: #000 !important;
+}
+
+/* Selected item */
+.select2-results__option[aria-selected="true"] {
+    background-color: #e0e0e0 !important;
+    color: #000 !important;
+}
+
+.select2-container {
+    width: 100% !important;
+    margin-top: 10px; /* SAFE */
+}
+
+/* Make Select2 options bullet-style */
+.select2-results__options {
+    list-style-type: disc !important;
+    padding-left: 25px !important;
+}
+
+/* Keep spacing neat */
+.select2-results__option {
+    padding-left: 5px !important;
+}
+
+/* Remove bullet for placeholder (optional) */
+.select2-results__option--disabled {
+    list-style: none !important;
+}
+/* Open dropdown background */
+.select2-dropdown {
+    /* light blue */
+    /*background-color: #eef4ff !important;*/ /* light blue */
+    /* Very light blue */
+    background-color: #f5f9ff;
+    /* Light grey */
+    /*background-color: #f8f9fa;*/
+    /* Pure white (default clean look) */
+    /*background-color: #ffffff;*/
+}
+
+/* Gradient background for open dropdown */
+.select2-dropdown {
+    background: linear-gradient( to bottom, #f0f6ff 0%, #e2edff 100% ) !important;
+}
+

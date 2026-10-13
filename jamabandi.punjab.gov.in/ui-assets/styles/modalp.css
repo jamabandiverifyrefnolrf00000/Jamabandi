@@ -1,0 +1,243 @@
+﻿/* =========================================================
+   Modal Background Overlay
+   ========================================================= */
+.modalBackground {
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* =========================================================
+   SweetAlert-like Modal
+   ========================================================= */
+.sweet-modal {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    width: 500px;
+    max-width: calc(100% - 30px);
+    padding: 0;
+    animation: fadeIn 0.25s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+.sweet-modal-body .form-control {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* =========================================================
+   Modal Header
+   ========================================================= */
+.sweet-modal-header {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333333;
+    background-color: #f8f9fa;
+    padding: 15px 20px;
+    margin: 0;
+    border-bottom: 1px solid #e5e5e5 !important;
+}
+
+
+/* =========================================================
+   Modal Body
+   ========================================================= */
+.sweet-modal-body {
+    font-size: 16px;
+    color: #555555;
+    padding: 20px;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+    /* =========================================================
+   Body Rows
+   ========================================================= */
+    .sweet-modal-body .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+        .sweet-modal-body .row[style*="border-bottom"] {
+            padding-bottom: 15px;
+            margin-bottom: 18px;
+            border-bottom: 1px solid #e5e5e5 !important;
+        }
+
+
+    /* =========================================================
+   Labels
+   ========================================================= */
+    .sweet-modal-body label {
+        color: #444444;
+        font-weight: 500;
+        line-height: 1.6;
+    }
+
+
+    /* =========================================================
+   Remarks TextBox
+   ========================================================= */
+    .sweet-modal-body .form-control {
+        margin-top: 6px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        box-shadow: none;
+        font-size: 15px;
+        padding: 8px 10px;
+        resize: vertical;
+    }
+
+        .sweet-modal-body .form-control:focus {
+            border-color: #66afe9;
+            box-shadow: 0 0 5px rgba(102, 175, 233, 0.25);
+        }
+
+
+    /* =========================================================
+   Validation Message
+   ========================================================= */
+    .sweet-modal-body .text-danger {
+        display: block;
+        margin-bottom: 6px;
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+
+/* =========================================================
+   Modal Footer
+   ========================================================= */
+.sweet-modal-footer {
+    padding: 15px 20px 20px;
+    text-align: center;
+    border-top: 1px solid #eeeeee;
+    background-color: #fafafa;
+}
+
+
+    /* =========================================================
+   Common Button Styling
+   ========================================================= */
+    .sweet-modal-footer .btn {
+        border: none;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 9px 22px;
+        min-width: 90px;
+        margin: 0 4px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.2s ease-in-out;
+        box-shadow: none;
+    }
+
+
+    /* =========================================================
+   YES / SUCCESS BUTTON
+   ========================================================= */
+    .sweet-modal-footer .btn-success {
+        background-color: #28a745;
+    }
+
+        .sweet-modal-footer .btn-success:hover,
+        .sweet-modal-footer .btn-success:focus {
+            background-color: #218838;
+            color: #ffffff;
+        }
+
+
+    /* =========================================================
+   NO / DANGER BUTTON
+   ========================================================= */
+    .sweet-modal-footer .btn-danger {
+        background-color: #dc3545;
+    }
+
+        .sweet-modal-footer .btn-danger:hover,
+        .sweet-modal-footer .btn-danger:focus {
+            background-color: #c82333;
+            color: #ffffff;
+        }
+
+
+    /* =========================================================
+   DEFAULT / GREY BUTTON
+   ========================================================= */
+    .sweet-modal-footer .btn-default {
+        background-color: #8e97a0;
+        color: #ffffff;
+    }
+
+        .sweet-modal-footer .btn-default:hover,
+        .sweet-modal-footer .btn-default:focus {
+            background-color: #727b84;
+            color: #ffffff;
+        }
+
+
+    /* =========================================================
+   Button Active Effect
+   ========================================================= */
+    .sweet-modal-footer .btn:active {
+        transform: translateY(1px);
+    }
+
+
+/* =========================================================
+   Fade In Animation
+   ========================================================= */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+/* =========================================================
+   Mobile Responsive
+   ========================================================= */
+@media (max-width: 480px) {
+
+    .sweet-modal {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .sweet-modal-header {
+        font-size: 18px;
+        padding: 13px 15px;
+    }
+
+    .sweet-modal-body {
+        font-size: 15px;
+        padding: 16px;
+    }
+
+    .sweet-modal-footer {
+        padding: 12px 10px 16px;
+    }
+
+        .sweet-modal-footer .btn {
+            min-width: 85px;
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+}
